@@ -1,0 +1,19 @@
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 0;
+}
+
+.box {
+    background-color: #f0f8ff;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.btn {
+    margin-bottom: 5px;
+}
